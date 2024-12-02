@@ -1,6 +1,6 @@
 use std::iter::zip;
 
-pub fn get_distance() -> Result<i32, anyhow::Error> {
+pub fn process() -> Result<i32, anyhow::Error> {
     let mut array1: Vec<i32> = Vec::new();
     let mut array2: Vec<i32> = Vec::new();
 
